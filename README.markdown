@@ -1,0 +1,3 @@
+# PLoS Search Box Widget
+The PLoS Search Box Widget will search PLoS Solr (this is currently set to localhost and will not work unless you have Solr running on your machine when viewing this page) and return a maximum of thirty results. The PloSSearch JavaScript has functions that handle the form submit and show/hide functions for the search results list and the abstract(s). It will embed the getPLoSSearchResults JavaScript code that sends the query to Solr and displays the JSON-P results in a list and embeds the stylesheet that formats the code.
+by [Veronica Canterbury](http://www.vimcat.com/).
