@@ -1,0 +1,35 @@
+/*
+----------------------------------------------------------
+PLoS Search Widget Stylesheet
+
+Created on: February 23, 2011
+Created by: Veronica Canterbury
+.
+----------------------------------------------------------
+*/
+#PLoSSearchResults { display:none; }
+#PLoS-Search-Widget { font:82.5% Verdana, Arial, Helvetica, sans-serif; color:#303030; margin:0; border-bottom:6px solid #202020; width:auto; min-height:100%; margin-bottom:20px; }
+#frmPloSSearch input { margin-bottom:5px; margin-right:5px; }
+.plos-row { overflow:hidden; }
+.plos-row input, .plos-row button { float:left; }
+.plos-row button { }
+#PLoS-Search-Widget a:link { color:#006699; }
+#PLoS-Search-Widget a:visited { color:#004466; }
+#PLoS-Search-Widget a:hover { color:#008ED5; }
+#PLoS-Search-Widget #plos-search-results { }
+#PLoS-Search-Widget #plos-search-results li { margin:1.5em 0; }
+#PLoS-Search-Widget .authors { font-size:0.9em; line-height:1.3em; margin:0.4em 0; }
+#PLoS-Search-Widget .article { font-size:1.2em; font-weight:bold; margin-bottom:0.3em; }
+#PLoS-Search-Widget .srm { margin-top:0.2em; padding-top:0.3em; }
+#PLoS-Search-Widget .cite { font-style:italic;  color:#666; line-height:1.5em; margin-bottom:0.4em; margin-top:0; }
+#PLoS-Search-Widget button:hover { cursor:pointer; }
+#PLoS-Search-Widget .highlight { background-color: #ffff00; font-weight:bold; color:#000; }
+#PLoS-Search-Widget .cite.abstract { color:#000; }
+#PLoS-Search-Widget .hiddenAbstract { display:none; }
+#PLoS-Search-Widget h3 { display:inline; }
+#PLoS-Search-Widget > div { width:500px; margin:10px 0; }
+#plos-loader { text-align:center; width:200px; height:20px; margin-top:10px; }
+#PLoS-Error { color: #CC0000; display: block; font-style: normal; }
+#plos-eollinks { overflow:hidden; }
+#plos-collapseResults { float:left; }
+#PLoS-BASL { float:right; }
